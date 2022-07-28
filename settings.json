@@ -1,0 +1,7 @@
+{
+    "workbench.startupEditor": "none",
+    "window.openFoldersInNewWindow": "on",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    }
+}
