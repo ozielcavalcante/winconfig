@@ -1,1 +1,22 @@
 winget install JanDeDobbeleer.OhMyPosh -s winget
+
+oh-my-posh font install
+Agave
+
+
+Windows Terminal settings:
+Perfis - Padrões - Aparência - Tipo de fonte: agave NF
+OU
+ctrl + shift + ,
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "font": 
+            {
+                "face": "agave NF"
+            }
+        },
+        ...
+    }
+
