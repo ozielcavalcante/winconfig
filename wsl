@@ -1,6 +1,5 @@
 wsl --install
 
 --instala certificado do TJRO
-wget https://app.tjro.jus.br/vpn/cert_TJRO-SSL-FWD.crt
-cp cert_TJRO-SSL-FWD.crt /etc/ssl/certs
+wget -P /etc/ssl/certs https://app.tjro.jus.br/vpn/cert_TJRO-SSL-FWD.crt
 update-ca-certificates
