@@ -4,3 +4,5 @@ wsl --install
 curl -sSL http://git.tjro.jus.br/snippets/3/raw | sudo bash -
 
 ln -s /mnt/c/Users/204765/git gits
+
+apt-get install -y zsh
